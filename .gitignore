@@ -1,0 +1,57 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Compiled binaries
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/Android/
+Build/IOS/
+
+# Build artifacts
+*.exe
+*.dll
+*.lib
+*.app
+*.dSYM
+*.pdb
+
+# Unreal auto-generated
+*.opensdf
+*.sdf
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+*.xcconfig.orig
+
+# Mac files
+.DS_Store
+
+# Backup
+*_Backup
+Backup/
+
+# Logs
+*.log
+
+# Cache
+DerivedDataCache/
+
+# Ignore plugins binaries
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore config override
+Config/DefaultEditorSettings.ini
+
+# Ignore saved cooking data
+Saved/Cooked/
+
+# Ignore local settings
+*.local
+*.user
+*.userprefs
